@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>AROGYASPARSHA</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+    <!-- MDB -->
+    <link rel="stylesheet" href="{{ url_for('static', filename="css/mdb.min.css") }}" />
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="{{ url_for('static', filename="css/style.css") }}" />
+</head>
+<body>
+  <!--Main Navigation-->
+  <header>
+    <!-- Intro settings -->
+    <style>
+      #intro {
+        /* Margin to fix overlapping fixed navbar */
+        margin-top: 58px;
+      }
+
+      @media (max-width: 1920px) {
+        #intro {
+          /* Margin to fix overlapping fixed navbar */
+          margin-top: 45px;
+        }
+      }
+    </style>
+
+    
+    <!-- Navbar -->
+    <div id="intro" class="p-5 text-center">
+      <img
+        src="{{ url_for('static', filename="img/arogya.jpg") }}"
+        class="img-fluid shadow-2-strong"
+        alt=""/>
+  </header>
+  <!--Main Navigation-->
+
+  <!--Main layout-->
+  <main class="my-4">
+    <div class="container-fluid">
+      <!--Section: Content-->
+      <section class="text-center">
+
+        <div class="row">
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4">
+
+            <!-- Card -->
+            <div class="card border">
+
+              <div class="card-header bg-white py-3">
+                <h1 class="mb-3 display-1" id="b1">Room 5</h1>
+              </div>
+
+              <div class="card-body">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item display-1 text-success" id="block1active">20</li>
+                  <li class="list-group-item display-1" id="block1next">21</li>
+                  <li class="list-group-item display-1" id="block1later">22</li>
+                </ul>
+              </div>
+
+            </div>
+            <!-- Card -->
+
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4">
+
+            <!-- Card -->
+            <div class="card border">
+
+              <div class="card-header bg-white py-3">
+                <h1 class="mb-3 display-1" id="b2">Room 8</h5>
+              </div>
+
+              <div class="card-body">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item display-1 text-success" id="block2active">30</li>
+                  <li class="list-group-item display-1" id="block2next">31</li>
+                  <li class="list-group-item display-1" id="block2later">32</li>
+                </ul>
+              </div>
+
+            </div>
+            <!-- Card -->
+
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4">
+
+            <!-- Card -->
+            <div class="card border">
+
+              <div class="card-header bg-white py-3">
+                <h1 class="mb-3 display-1" id="b3">Room 9</h5>
+              </div>
+
+              <div class="card-body">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item display-1 text-success" id="block3active">40</li>
+                  <li class="list-group-item display-1" id="block3next">41</li>
+                  <li class="list-group-item display-1" id="block3later">42</li>
+                </ul>
+              </div>
+
+            </div>
+            <!-- Card -->
+
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4">
+
+            <!-- Card -->
+            <div class="card border">
+
+              <div class="card-header bg-white py-3">
+                <h1 class="mb-3 display-1" id="b4">Room 10</h5>
+              </div>
+
+              <div class="card-body">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item display-1 text-success" id="block4active">50</li>
+                  <li class="list-group-item display-1" id="block4next">51</li>
+                  <li class="list-group-item display-1" id="block4later">52</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Card -->
+
+          </div>
+          <!--Grid column-->
+
+        </div>
+      </section>
+      <!--Section: Content-->
+    </div>
+  </main>
+  <!--Main layout-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="{{ url_for('static', filename="js/mdb.min.js") }}"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript" src="{{ url_for('static', filename="js/script.js") }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename="js/main.js") }}"></script>
+</body>
+</html>
